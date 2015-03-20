@@ -247,6 +247,7 @@ public class Launcher {
 		frame.getContentPane().add(lblNewLabel_6);
 		
 		lblNewLabel_7 = new JLabel("Velocita Discesa 23m/min");
+		
 		lblNewLabel_7.setBounds(10, 392, 182, 31);
 		frame.getContentPane().add(lblNewLabel_7);
 		
