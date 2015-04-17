@@ -51,7 +51,7 @@ public class Support {
 			risalitaProf = (fondoRealeProf-6)/2+6;
 			risalitaTemp = ((fondoRealeProf - 6)* (60/9))/60;
 			BigDecimal risalitaTempRound = new BigDecimal(risalitaTemp);
-			BigDecimal roundOff = risalitaTempRound.setScale(0, BigDecimal.ROUND_UP);
+			BigDecimal roundOff = risalitaTempRound.setScale(2, BigDecimal.ROUND_HALF_EVEN);
 			Launcher.inputRisalitaProf.setText(risalitaProf.toString());
 			Launcher.inputRisalitaTempo.setText(roundOff.toString());
 			calcConsumi();
